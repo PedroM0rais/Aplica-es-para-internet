@@ -1,0 +1,152 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.897);
+    height: 173px;
+    padding-top: 80px;
+    border-radius: 10px 10px 10px 10px;
+ }
+
+ h1 {
+    font-family: 'Open Sans';
+     color: #027373;
+     text-align: center;
+     text-shadow: 1px 1px 2px #011b1bb4;
+     text-align: center;
+ }
+
+ h2 {
+    color: #027373;
+    text-align: center;
+ }
+
+ nav {
+    padding: 10px;
+    box-shadow: 0px 7px 8px rgba(0, 0, 0, 0.267);
+    border-radius: 0px 0px 10px 10px;
+}
+
+nav > a {
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    padding-bottom: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: .4s;
+}
+
+nav > a:hover {
+    color: #027373;
+    transition-duration: .3s;
+}
+
+p {
+    text-align: justify;
+    font-family: 'Open Sans';
+    font-weight: bold;
+ }
+
+.h1 {
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    margin-top: 80px;
+}
+
+.terciario {
+    display: flex;
+}
+
+.p {
+    text-align: center;
+}
+
+.ul {
+    text-align: center;
+}
+
+.li {
+    text-align: center;
+}
+
+.li > a{
+    text-decoration: none;
+    color: #027373;
+}
+
+.li > a:hover {
+    color: white;
+    transition-duration: .3s;
+}
+
+.sobre {
+    background-color: black;
+    color: #027373;
+    font-family: 'Open Sans';
+    font-weight: bold;
+    height: 200px;
+    width: 33.33%;
+    margin-top: 10px;
+}
+
+.opções {
+    background-color: rgba(0, 0, 0, 0.932);
+    color: #027373;
+    font-family: 'Open Sans';
+    font-weight: bold;
+    height: 200px;
+    width: 33.33%;
+    margin-top: 10px;
+}
+
+.categorias {
+    background-color: rgba(0, 0, 0, 0.87);
+    color: #027373;
+    font-family: 'Open Sans';
+    font-weight: bold;
+    height: 200px;
+    width: 33.33%;
+    margin-top: 10px;
+}
+
+.contatos {
+    background-color: rgba(0, 0, 0, 0.856);
+    color: #027373;
+    font-family: 'Open Sans';
+    font-weight: bold;
+    height: 200px;
+    width: 33.33%;
+    margin-top: 10px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer > p > a {
+    text-decoration: none;
+    color: black;
+}
+
+footer > p > a:hover {
+    text-shadow: 0.2px 0.2px 2px black;
+    transition-duration: .3s;
+}
